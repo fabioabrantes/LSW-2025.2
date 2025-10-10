@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./function.css" />
+
+    <title>Teste: gerarNumeroAleatorio()</title>
+  </head>
+  <body>
+    <div class="container" role="main">
+      <header>
+        <div>
+          <p>Insira valores e teste o método gerar numero aleatório</p>
+        </div>
+        <div class="small">Validação simples</div>
+      </header>
+
+      <!-- left column: inputs e ação -->
+      <section class="card col" aria-label="Gerador">
+        <div class="row">
+          <div style="flex: 1">
+            <label for="min">Valor mínimo</label>
+            <input id="min" type="number" />
+          </div>
+          <div style="flex: 1">
+            <label for="max">Valor máximo</label>
+            <input id="max" type="number" />
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 12px; margin-top: 12px">
+          <button onclick="gerarNumeroAleatorio()">Gerar número</button>
+        </div>
+
+        <div style="margin-top: 14px">
+          <div class="small">Resultado:</div>
+          <div id="resultado" class="result"></div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./function.js"></script>
+  </body>
+</html>
