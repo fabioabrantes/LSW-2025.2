@@ -6,7 +6,22 @@ let obj = {
   saudacao: () => {
     console.log("oi meus amigos");
   },
+  endereco:{
+    rua:"ruda do x",
+    cep:"000-00"
+  }
 };
+obj.name = "fabio";
+const listNameProps =Object.keys(obj);
+listNameProps.forEach(function(prop){
+  console.log(obj[prop])
+});
+console.log(listNameProps);
+
+for (const props in obj) {
+  console.log(obj[props])  
+}
+
 console.log(obj.friends[0]["name"]);
 
 
@@ -36,3 +51,15 @@ function error(err) {
 }
 
 navigator.geolocation.getCurrentPosition(success, error, options);
+
+let x = 123.45535465787
+let resultado = x.toFixed(3)
+console.log(resultado/3)
+
+let frase = "Ads é nota 5 no ENADE"
+const indice = frase.indexOf(5,3)
+const existe = frase.includes("EaADE");
+const palavra = frase.slice(-6,-3)
+console.log(palavra)
+console.log(frase[indice])
+console.log(existe)
