@@ -56,10 +56,4 @@ let x = 123.45535465787
 let resultado = x.toFixed(3)
 console.log(resultado/3)
 
-let frase = "Ads é nota 5 no ENADE"
-const indice = frase.indexOf(5,3)
-const existe = frase.includes("EaADE");
-const palavra = frase.slice(-6,-3)
-console.log(palavra)
-console.log(frase[indice])
-console.log(existe)
+
