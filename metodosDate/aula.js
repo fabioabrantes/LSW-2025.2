@@ -1,0 +1,24 @@
+const agora = new Date();
+console.log(agora);
+const ano = agora.getFullYear();
+console.log(ano);
+const mes = agora.getMonth();
+console.log(mes);
+const dia = agora.getDay();
+console.log(dia);
+const dia2 = agora.getDate();
+console.log(dia2);
+const hora = agora.getHours();
+console.log(hora);
+const minuto = agora.getMinutes();
+console.log(minuto);
+const segundo = agora.getSeconds();
+console.log(segundo);
+
+const agora = new Date();
+console.log(agora.toString());
+console.log(agora.toLocaleDateString());
+console.log(agora.toLocaleTimeString());
+console.log(agora.toLocaleString());
+console.log(agora.toUTCString());
+console.log(agora.toISOString());
