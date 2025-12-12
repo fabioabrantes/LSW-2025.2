@@ -32,3 +32,7 @@ function mostrarClasses() {
 
   alert(`A caixa tem ${total} classe(s). Veja o console para detalhes.`);
 }
+
+caixa.style.backgroundColor = "blue";
+caixa.style.width = "50px";
+caixa.style.height = "300px";

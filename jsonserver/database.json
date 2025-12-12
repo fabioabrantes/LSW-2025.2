@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "a4c2",
+      "name": "João",
+      "email": "joao@email.com"
+    },
+    {
+      "id": "a5c3",
+      "name": "jose",
+      "email": "jose@email.com"
+    },
+    {
+      "name": "FABIO ABRANTES DINIZ",
+      "email": "fabio.abrantes.diniz@gmail.com",
+      "id": "l1z8yPv"
+    }
+  ],
+  "posts": [
+    {
+      "id": "3333",
+      "description": "fkvxnvcvpoxkvockvjxfkvcjvospifopsmlkmxcljs",
+      "id_user": "a4c2"
+    }
+  ]
+}

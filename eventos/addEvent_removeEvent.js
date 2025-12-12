@@ -8,9 +8,9 @@ function mudarParaAzul() {
 
 btnAzul.addEventListener("click", mudarParaAzul);
 
-btnAmarelo.addEventListener("click", function (e) {
-  e.target.style.backgroundColor = "black";
-  e.target.style.color = "white";
+btnAmarelo.addEventListener("click", function (event) {
+  event.target.style.backgroundColor = "gray";
+  event.target.style.color = "white";
   document.body.style.backgroundColor = "yellow";
 });
 
@@ -26,8 +26,9 @@ btnRemoverAzul.addEventListener("blur", function () {
 }); */
 
 document.getElementById("meuform").addEventListener("submit", function (e) {
+  e.preventDefault();
   console.log(e.target);
   console.log(e.currentTarget);
+  console.log(this);
 
-  alert("Formulário enviado!");
 });

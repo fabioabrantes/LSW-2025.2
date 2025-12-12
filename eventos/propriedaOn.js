@@ -6,7 +6,7 @@ const saida2 = document.getElementById("saida2");
 
 let texto ='';
 // Usando propriedade .oninput
-campoTexto.oninput = function (e) {
+campoTexto.onchange = function (e) {
   texto=  `<h1>${campoTexto.value}</h1>`;
   saida.innerHTML = texto;
 };
